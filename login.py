@@ -87,7 +87,7 @@ count = 0
 def login():
     global count
 
-    fpath = r'C:\Users\gustj\Desktop\Hyeonseo\오픈소스SW\teamcloud\test_data.xlsx'  # db파일이 저장될 경로는 각자 수정하기
+    fpath = r'C:\Users\gustj\Desktop\Hyeonseo\오픈소스SW\teamcloud_fin\teamcloud\test_data.xlsx'  # db파일이 저장될 경로는 각자 수정하기
     wb = openpyxl.load_workbook(fpath)
     ws = wb.active
     read_xlsx = wb

@@ -8,7 +8,7 @@ import sys
 import openpyxl
 import os
 
-fpath = r'C:\Users\gustj\Desktop\Hyeonseo\오픈소스SW\teamcloud\test_data.xlsx'
+fpath = r'C:\Users\gustj\Desktop\Hyeonseo\오픈소스SW\teamcloud_fin\teamcloud\test_data.xlsx'
 
 #회원가입시  db에 저장되게 하는 함수
 def save_info(sex, name, email, password):
